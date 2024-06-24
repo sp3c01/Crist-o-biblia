@@ -14,46 +14,25 @@
                 <li><a href="index.html">Início</a></li>
                 <li><a href="biblia.html">Bíblia Online</a></li>
                 <li><a href="fotos.html">Galeria de Fotos</a></li>
+                <li><a href="audios.html">Áudios</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a href="audios.html">Audios</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="contato">
-            <h2>Entre em Contato</h2>
-            <p>Estamos aqui para ajudar e ouvir você. Entre em contato conosco através dos seguintes meios:</p>
-
-            <h3>Endereço</h3>
-            <p>Em breve...</p>
-
-            <h3>Telefone</h3>
-            <p>Em breve...</p>
-
-            <h3>Email</h3>
-            <p><a href="Em breve...">Em breve...</a></p>
-
-            <h3>Redes Sociais</h3>
-            <p>Siga-nos nas redes sociais para se manter atualizado:</p>
-            <ul>
-                <li><a href="#">Facebook</a> - Em breve..</li>
-                </li>
-                <li><a href="#">Instagram</a> - Em breve...</li>
-                <li><a href="#">YouTube</a> - Em breve...</li>
-            </ul>
-
-            <h3>Formulário de Contato</h3>
-            <form action="enviar_formulario.php" method="post">
+            <h2>Entre em Contato Conosco</h2>
+            <form action="enviar_contato.php" method="post">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required><br>
-
+                <input type="text" id="nome" name="nome" required>
+                
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-
+                <input type="email" id="email" name="email" required>
+                
                 <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea><br>
-
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
                 <input type="submit" value="Enviar">
             </form>
         </section>
